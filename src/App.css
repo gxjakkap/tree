@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -19,6 +23,18 @@ background: linear-gradient(90deg, rgba(0,34,150,1) 0%, rgba(130,0,143,1) 13%, r
     font-family: 'Mali', cursive;
 }
 
+.font-rbt {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-bg {
+    background: linear-gradient(90deg, #6ee0ff 0%, #010b64 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 .bg-gradient {
     background: linear-gradient(19deg, #9bc3f5 0%, #e3d8d4 100%);
 }
+

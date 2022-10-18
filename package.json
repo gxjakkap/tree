@@ -1,28 +1,27 @@
 {
-  "name": "tree-new",
-  "scripts": {
-    "dev": "solid-start dev",
-    "build": "solid-start build",
-    "start": "solid-start start"
-  },
+  "name": "tree",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
-  "devDependencies": {
-    "autoprefixer": "^10.4.9",
-    "postcss": "^8.4.16",
-    "solid-start-node": "^0.1.0",
-    "tailwindcss": "^3.1.8",
-    "typescript": "^4.8.3",
-    "vite": "^3.1.0"
+  "scripts": {
+    "dev": "vite",
+    "dev-exp": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@solidjs/meta": "^0.28.0",
-    "@solidjs/router": "^0.5.0",
     "daisyui": "^2.31.0",
-    "solid-js": "^1.5.8",
-    "solid-start": "^0.1.0",
-    "undici": "^5.10.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
-  "engines": {
-    "node": ">=16"
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
   }
 }
