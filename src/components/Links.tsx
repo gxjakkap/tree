@@ -1,6 +1,7 @@
 import BerealIcon from "./svgs/Bereal"
 import ClubhouseIcon from "./svgs/Clubhouse"
 import VeroIcon from "./svgs/Vero"
+import ThreadsIcon from "./svgs/Threads"
 
 const openInNewTab = (url: string) => {
     window.open(url)
@@ -14,6 +15,8 @@ const Links = () =>  {
             <button className="btn btn-block ltbtn igbtn" onClick={() => openInNewTab('https://instagram.com/guntxjakka')}><i className="bi bi-instagram mx-2 text-lg"></i>Instagram</button>
             <button className="btn btn-block ltbtn bg-black hover:bg-gray-800" onClick={() => openInNewTab('https://github.com/gxjakkap')}><i className="bi bi-github mx-2 text-lg"></i>GitHub</button>
             <button className="btn btn-block ltbtn bg-[#1c9bf1] hover:bg-[#41aef7]" onClick={() => openInNewTab('https://twitter.com/guntxjakka')}><i className="bi bi-twitter mx-2 text-lg"></i>Twitter</button>
+            <button className="btn btn-block ltbtn bg-[#020202] hover:bg-[#1a1919]" onClick={() => openInNewTab('https://threads.net/@guntxjakka')}><ThreadsIcon />Threads</button>
+            <button className="btn btn-block ltbtn bg-[#5c4ee5] hover:bg-[#6262fc]" onClick={() => openInNewTab('https://mastodon.social/@jakka')}><i className="bi bi-mastodon mx-2 text-lg"></i>Mastodon</button>
             <button className="btn btn-block ltbtn bg-[#9046ff] hover:bg-[#9558f0]" onClick={() => openInNewTab('https://twitch.tv/guntxjakka')}><i className="bi bi-twitch mx-2 text-lg"></i>Twitch</button>
             <button className="btn btn-block ltbtn bg-[#fe0100] hover:bg-[#fa3f3f]" onClick={() => openInNewTab('https://www.youtube.com/channel/UCuhb0ovLdYPxw-K0a6d3Dzw')}><i className="bi bi-youtube mx-2 text-lg"></i>Youtube (Vlog)</button>
             <button className="btn btn-block ltbtn bg-[#fe0100] hover:bg-[#fa3f3f]" onClick={() => openInNewTab('https://www.youtube.com/c/GuntxJakkaGaming')}><i className="bi bi-youtube mx-2 text-lg"></i>Youtube (Gaming)</button>
