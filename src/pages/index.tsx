@@ -15,7 +15,7 @@ function IndexPage() {
           />
           <h1 className="font-rbt text-bg text-center my-3 text-[2.9rem] drop-shadow-xl">GuntxJakka</h1>
           <Links />
-          <FooterText colorClass="text-sky-900" />
+          <FooterText />
       </div>
     </div>
   )

@@ -1,10 +1,6 @@
-interface FooterProps {
-    colorClass: string
-}
-
-const FooterText = ({ colorClass }: FooterProps) => {
+const FooterText = () => {
     return (
-        <footer className={`footer footer-center pt-5 ${colorClass}`}>
+        <footer className={`footer footer-center pt-5`}>
             <div>
                 <a href="https://github.com/gxjakkap" target="_blank" rel="noreferrer">Copyright © 2023 - GuntxJakka</a>
             </div>
